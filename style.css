@@ -1,14 +1,21 @@
 body {
-  font-family: Arial, sans-serif;
-  background-image: url('https://saoluis.edufor.edu.br/themes/edufor/assets/images/background/bg-video-sobre-new-2026.jpg');
+  /*font-family: Arial, sans-serif;*/
+  font-family: Arial, sans-serif; 
+  background: url('https://saoluis.edufor.edu.br/themes/edufor/assets/images/background/bg-video-sobre-new-2026.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+  
   /*display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;*/
-}
 
 .container {
   background: white;
