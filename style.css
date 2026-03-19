@@ -1,10 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url('https://saoluis.edufor.edu.br/themes/edufor/assets/images/background/bg-video-sobre-new-2026.jpg')
-  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh;*/
 }
 
 .container {
