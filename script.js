@@ -47,7 +47,7 @@ console.log(dados)
 console.log(JSON.stringify(dados))
 
   
-  fetch("https://jsonplaceholder.typicode.com/posts", {
+  fetch("https://servlet-data-hub.replit.app/api/cadastro", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
