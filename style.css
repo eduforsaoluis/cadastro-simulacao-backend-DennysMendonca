@@ -1,10 +1,22 @@
 body {
-  background: rgb(227, 215, 215);
+
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-image: url('https://saoluis.edufor.edu.br/themes/edufor/assets/images/background/bg-video-sobre-new-2026.jpg'); /* Nome do seu arquivo de imagem */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  /*background: rgb(227, 215, 215);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh;*/
 }
 .container {
   background: white;
